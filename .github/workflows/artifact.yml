@@ -49,6 +49,7 @@ jobs:
     - name: Test ${{ env.FILE_NAME }}
       run: |
           ls -al
+          echo lalalalalalla
           source ./test.sh
 
   test-windows:
